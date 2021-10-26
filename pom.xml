@@ -56,6 +56,21 @@
     <artifactId>maven-war-plugin</artifactId>
     <version>3.3.2</version>
 </dependency>	
+		
+<!-- https://mvnrepository.com/artifact/org.jenkins-ci.main/jenkins-war -->
+<dependency>
+    <groupId>org.jenkins-ci.main</groupId>
+    <artifactId>jenkins-war</artifactId>
+    <version>2.86</version>
+    <scope>test</scope>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/io.freefair.gradle/war-plugin -->
+<dependency>
+    <groupId>io.freefair.gradle</groupId>
+    <artifactId>war-plugin</artifactId>
+    <version>2.5.0</version>
+</dependency>
 
 	</dependencies>
 
