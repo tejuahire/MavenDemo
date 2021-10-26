@@ -17,7 +17,9 @@
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
+		<p.type>war</p.type>
 	</properties>
+	<packaging>${p.type}</packaging>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -102,14 +104,7 @@
           <version>3.0.0</version>
         </plugin>
 	   
-	       <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-war-plugin</artifactId>
-            <version>3.0.0</version>
-            <configuration>
-                <attachClasses>true</attachClasses>
-            </configuration>
-        </plugin>
+	    
 	     
       </plugins>
     </pluginManagement>
