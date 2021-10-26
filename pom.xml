@@ -14,9 +14,6 @@
 	<packaging>pom</packaging>
 	<name>FirstPro-1</name>
 	<description>Demo project for Spring Boot</description>
-	  <modules>
-        <module>war</module>
-    </modules>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -100,6 +97,14 @@
           <version>3.0.0</version>
         </plugin>
         
+	       <executions>
+        <execution>
+            <phase>package</phase>
+            <goals>
+                <goal>war</goal>
+            </goals>
+        </execution>
+    </executions>
         
       </plugins>
     </pluginManagement>
